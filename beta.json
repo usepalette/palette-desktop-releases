@@ -1,23 +1,23 @@
 {
-  "version": "0.15.0",
-  "notes": "See the assets to download and install this version.",
-  "pub_date": "2026-05-22T09:57:04.508Z",
+  "version": "0.16.0",
+  "notes": "### New\n\n- **In-app What's New** — see friendly, AI-written release notes right inside the app whenever you update.\n- **Paste images into chat** — drop screenshots and clipboard images straight into a message as attachments.\n- **Drag-and-drop attachments** — a clear overlay appears while you drag files over a session so you know exactly where they'll land.\n- **Skills & History tabs** — the explorer now has dedicated tabs for browsing skills and session history, with state kept per session.\n- **References, Marketplace & more as pages** — open References, the Marketplace, Help, and your org context as full main-area pages instead of cramped popovers.\n\n### Improved\n\n- **Cleaner transcript** — chat now reads as a single chronological timeline with related tool runs grouped together.\n- **Smarter Skills panel** — filter skills by source and provider to find what you need faster.\n- **Keep chatting during a plan** — interrupt an in-progress plan to keep the conversation going, with a tidier, tab-scoped layout.\n- **Refreshed quickstart** — redesigned create-workspace, marketplace, and template detail screens make getting started smoother.\n- **Polished macOS look** — native tinted glass, refined session rows, popovers, icons, illustrated empty states, and subtle shimmering \"working\" labels.",
+  "pub_date": "2026-05-29T15:09:54.060Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTlsS1cwakpMdVo4UzQxYjVBOUV1MHM0VUpvZVBsU2Q0RzhDL0JnZ0hOVlZCZm5ESUVtb1F5Mm5TNXRYSFo4M1RIaEFaU3lRTE9iRFZzWUlNVmpqSXc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5NDQzNzg3CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKMHNCVVd4ZGF2QWw1R2RnaVFuTlNwVUNFUXBNOGMxQ1F0N1hoNWRTbFlOMU1UQVBQMGN5M1BYNUIwTks4dnhXUVJkVUZVZm8xOFJaL3cxUmtpRHR6QVE9PQo=",
-      "url": "https://github.com/usepalette/palette-desktop-releases/releases/download/v0.15.0/Palette.Desktop_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNS91QU5KeXhpU2JyYzg4YUV4L2lXcXNsem1yZW1Ua3l2OEpjTUVYWGt0ekhzQUxnUTRlZkg2SWFjVUNyUG5qaGhxS1N0cGZPNUxsRUNaNTNCSDVISFFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5NDUyMDIxCWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKZUxteUdPMEtyQ3JDODZMcmxhK3d3ZWptc2dhTnEwN2NHOHk3RTArRlhsMGM1ME53QjhYaU0zNXJ1MUdiNENCdUM0YWFkNXFwaEdsWG5CQ1dKM3RDQ2c9PQo=",
+      "url": "https://github.com/usepalette/palette-desktop-releases/releases/download/v0.16.0/Palette.Desktop_universal.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTlsS1cwakpMdVo4UzQxYjVBOUV1MHM0VUpvZVBsU2Q0RzhDL0JnZ0hOVlZCZm5ESUVtb1F5Mm5TNXRYSFo4M1RIaEFaU3lRTE9iRFZzWUlNVmpqSXc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5NDQzNzg3CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKMHNCVVd4ZGF2QWw1R2RnaVFuTlNwVUNFUXBNOGMxQ1F0N1hoNWRTbFlOMU1UQVBQMGN5M1BYNUIwTks4dnhXUVJkVUZVZm8xOFJaL3cxUmtpRHR6QVE9PQo=",
-      "url": "https://github.com/usepalette/palette-desktop-releases/releases/download/v0.15.0/Palette.Desktop_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNS91QU5KeXhpU2JyYzg4YUV4L2lXcXNsem1yZW1Ua3l2OEpjTUVYWGt0ekhzQUxnUTRlZkg2SWFjVUNyUG5qaGhxS1N0cGZPNUxsRUNaNTNCSDVISFFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5NDUyMDIxCWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKZUxteUdPMEtyQ3JDODZMcmxhK3d3ZWptc2dhTnEwN2NHOHk3RTArRlhsMGM1ME53QjhYaU0zNXJ1MUdiNENCdUM0YWFkNXFwaEdsWG5CQ1dKM3RDQ2c9PQo=",
+      "url": "https://github.com/usepalette/palette-desktop-releases/releases/download/v0.16.0/Palette.Desktop_universal.app.tar.gz"
     },
     "darwin-aarch64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTlsS1cwakpMdVo4UzQxYjVBOUV1MHM0VUpvZVBsU2Q0RzhDL0JnZ0hOVlZCZm5ESUVtb1F5Mm5TNXRYSFo4M1RIaEFaU3lRTE9iRFZzWUlNVmpqSXc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5NDQzNzg3CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKMHNCVVd4ZGF2QWw1R2RnaVFuTlNwVUNFUXBNOGMxQ1F0N1hoNWRTbFlOMU1UQVBQMGN5M1BYNUIwTks4dnhXUVJkVUZVZm8xOFJaL3cxUmtpRHR6QVE9PQo=",
-      "url": "https://github.com/usepalette/palette-desktop-releases/releases/download/v0.15.0/Palette.Desktop_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNS91QU5KeXhpU2JyYzg4YUV4L2lXcXNsem1yZW1Ua3l2OEpjTUVYWGt0ekhzQUxnUTRlZkg2SWFjVUNyUG5qaGhxS1N0cGZPNUxsRUNaNTNCSDVISFFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5NDUyMDIxCWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKZUxteUdPMEtyQ3JDODZMcmxhK3d3ZWptc2dhTnEwN2NHOHk3RTArRlhsMGM1ME53QjhYaU0zNXJ1MUdiNENCdUM0YWFkNXFwaEdsWG5CQ1dKM3RDQ2c9PQo=",
+      "url": "https://github.com/usepalette/palette-desktop-releases/releases/download/v0.16.0/Palette.Desktop_universal.app.tar.gz"
     },
     "darwin-x86_64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTlsS1cwakpMdVo4UzQxYjVBOUV1MHM0VUpvZVBsU2Q0RzhDL0JnZ0hOVlZCZm5ESUVtb1F5Mm5TNXRYSFo4M1RIaEFaU3lRTE9iRFZzWUlNVmpqSXc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5NDQzNzg3CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKMHNCVVd4ZGF2QWw1R2RnaVFuTlNwVUNFUXBNOGMxQ1F0N1hoNWRTbFlOMU1UQVBQMGN5M1BYNUIwTks4dnhXUVJkVUZVZm8xOFJaL3cxUmtpRHR6QVE9PQo=",
-      "url": "https://github.com/usepalette/palette-desktop-releases/releases/download/v0.15.0/Palette.Desktop_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNS91QU5KeXhpU2JyYzg4YUV4L2lXcXNsem1yZW1Ua3l2OEpjTUVYWGt0ekhzQUxnUTRlZkg2SWFjVUNyUG5qaGhxS1N0cGZPNUxsRUNaNTNCSDVISFFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5NDUyMDIxCWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKZUxteUdPMEtyQ3JDODZMcmxhK3d3ZWptc2dhTnEwN2NHOHk3RTArRlhsMGM1ME53QjhYaU0zNXJ1MUdiNENCdUM0YWFkNXFwaEdsWG5CQ1dKM3RDQ2c9PQo=",
+      "url": "https://github.com/usepalette/palette-desktop-releases/releases/download/v0.16.0/Palette.Desktop_universal.app.tar.gz"
     }
   }
 }
