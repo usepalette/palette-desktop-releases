@@ -1,5 +1,13 @@
 [
   {
+    "version": "0.23.0",
+    "date": "2026-06-09",
+    "notes": "### Improved\r\n- **Update notification** — the update-ready notification has a cleaner layout with a clear primary button to install.\r\n- **Automatic update checks** — Palette now re-checks for updates every few hours and whenever you return to the app.\r\n\r\n### Fixed\r\n- **Release notes channel** — What's New now shows the release notes that match your update channel.",
+    "channels": [
+      "beta"
+    ]
+  },
+  {
     "version": "0.22.0",
     "date": "2026-06-09",
     "notes": "Palette now keeps itself up to date more reliably and shows release notes that match your update channel.\r\n\r\n### Improved\r\n- **Faster update checks** — Palette re-checks for new versions every few hours and whenever you return to the app, so you're never far behind the latest release.\r\n\r\n### Fixed\r\n- **Release notes match your channel** — What's New now shows only the notes for your update channel, so you won't see entries for releases you're not on.",
