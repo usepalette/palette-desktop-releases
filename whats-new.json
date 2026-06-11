@@ -1,5 +1,13 @@
 [
   {
+    "version": "0.24.0",
+    "date": "2026-06-11",
+    "notes": "A release focused on richer sharing, a redesigned settings screen, and handy viewer tools.\r\n\r\n### New\r\n\r\n- **HTML sharing** — share your work as a styled HTML page with a new share button and modal.\r\n- **Sealed HTML preview** — preview shared HTML with pinnable comments you can drop right on the page.\r\n- **Interface zoom** — zoom the interface in and out across every window.\r\n- **Copy as Markdown** — copy any `.md` file to your clipboard straight from the sidebar.\r\n- **Open-source licenses** — browse the licenses of the open-source software Palette is built on, right inside the app.\r\n\r\n### Improved\r\n\r\n- **Redesigned settings** — a cleaner two-pane layout with a category rail alongside the content.\r\n- **Styled shared pages** — shared HTML now carries its styling with it, so it always renders the way it looks in the app.\r\n\r\n### Fixed\r\n\r\n- **Share feedback** — the feedback option now opens an in-app survey instead of leaving the app.\r\n- **Checkpoints** — Palette's internal saves no longer fail when you have commit signing turned on.",
+    "channels": [
+      "beta"
+    ]
+  },
+  {
     "version": "0.23.0",
     "date": "2026-06-09",
     "notes": "### Improved\r\n- **Update notification** — the update-ready notification has a cleaner layout with a clear primary button to install.\r\n- **Automatic update checks** — Palette now re-checks for updates every few hours and whenever you return to the app.\r\n\r\n### Fixed\r\n- **Release notes channel** — What's New now shows the release notes that match your update channel.",

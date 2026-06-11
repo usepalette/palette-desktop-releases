@@ -1,23 +1,23 @@
 {
-  "version": "0.23.0",
-  "notes": "### Improved\n- **Update notification** — the update-ready notification has a cleaner layout with a clear primary button to install.\n- **Automatic update checks** — Palette now re-checks for updates every few hours and whenever you return to the app.\n\n### Fixed\n- **Release notes channel** — What's New now shows the release notes that match your update channel.",
-  "pub_date": "2026-06-09T12:38:06.034Z",
+  "version": "0.24.0",
+  "notes": "A release focused on richer sharing, a redesigned settings screen, and handy viewer tools.\n\n### New\n\n- **HTML sharing** — share your work as a styled HTML page with a new share button and modal.\n- **Sealed HTML preview** — preview shared HTML with pinnable comments you can drop right on the page.\n- **Interface zoom** — zoom the interface in and out across every window.\n- **Copy as Markdown** — copy any `.md` file to your clipboard straight from the sidebar.\n- **Open-source licenses** — browse the licenses of the open-source software Palette is built on, right inside the app.\n\n### Improved\n\n- **Redesigned settings** — a cleaner two-pane layout with a category rail alongside the content.\n- **Styled shared pages** — shared HTML now carries its styling with it, so it always renders the way it looks in the app.\n\n### Fixed\n\n- **Share feedback** — the feedback option now opens an in-app survey instead of leaving the app.\n- **Checkpoints** — Palette's internal saves no longer fail when you have commit signing turned on.",
+  "pub_date": "2026-06-11T16:32:42.685Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTA2U3h2ekhMUXNwNTNpNG1Yd0NMYnpodkRIQ0UvN2I2WC95MnpJbUlkV3o1NWdCSHUvYXBjdUZ4bGNFMk1EUWlWYjJmOHJkbHBGUXVQeVJhWCs5SkFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxMDA4NjUwCWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKazc1MFJUSGtDbEp5ZlhLZUxzQ0lBL1lUU1pZcDRHcktzcHAzMWVkQ0V5VldXVjRYTnRrZkhiTzlUWFNZQlM1bXQ3TFBqZVltcE0wekl3bmN6SkV4RGc9PQo=",
-      "url": "https://github.com/usepalette/palette-desktop-releases/releases/download/v0.23.0/Palette.Desktop_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTNEeWJTclJZUXVSQUp3VTRGN2VuWDVWZTk3Sml6U05SOWxNa3pDZ1htdWJNdllOMUR6VzFGV2x3d1VVSFpvT1d3MFVKRmJqdUpEUk8wOEdyNTB0UHdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxMTk1NTE1CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKa1VSRDl6bnBvaE1aZVFia3YxSzZSMUYzWlZDM0g4Ny92bmNJRm5lbWhxcFpHbTlHRXFHbnZNUk1hYlFlMTFFM2d5NllIckZZNkVXNVN1Z0RmSUdqRHc9PQo=",
+      "url": "https://dl.palette.team/v0.24.0/Palette.Desktop_universal.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTA2U3h2ekhMUXNwNTNpNG1Yd0NMYnpodkRIQ0UvN2I2WC95MnpJbUlkV3o1NWdCSHUvYXBjdUZ4bGNFMk1EUWlWYjJmOHJkbHBGUXVQeVJhWCs5SkFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxMDA4NjUwCWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKazc1MFJUSGtDbEp5ZlhLZUxzQ0lBL1lUU1pZcDRHcktzcHAzMWVkQ0V5VldXVjRYTnRrZkhiTzlUWFNZQlM1bXQ3TFBqZVltcE0wekl3bmN6SkV4RGc9PQo=",
-      "url": "https://github.com/usepalette/palette-desktop-releases/releases/download/v0.23.0/Palette.Desktop_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTNEeWJTclJZUXVSQUp3VTRGN2VuWDVWZTk3Sml6U05SOWxNa3pDZ1htdWJNdllOMUR6VzFGV2x3d1VVSFpvT1d3MFVKRmJqdUpEUk8wOEdyNTB0UHdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxMTk1NTE1CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKa1VSRDl6bnBvaE1aZVFia3YxSzZSMUYzWlZDM0g4Ny92bmNJRm5lbWhxcFpHbTlHRXFHbnZNUk1hYlFlMTFFM2d5NllIckZZNkVXNVN1Z0RmSUdqRHc9PQo=",
+      "url": "https://dl.palette.team/v0.24.0/Palette.Desktop_universal.app.tar.gz"
     },
     "darwin-aarch64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTA2U3h2ekhMUXNwNTNpNG1Yd0NMYnpodkRIQ0UvN2I2WC95MnpJbUlkV3o1NWdCSHUvYXBjdUZ4bGNFMk1EUWlWYjJmOHJkbHBGUXVQeVJhWCs5SkFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxMDA4NjUwCWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKazc1MFJUSGtDbEp5ZlhLZUxzQ0lBL1lUU1pZcDRHcktzcHAzMWVkQ0V5VldXVjRYTnRrZkhiTzlUWFNZQlM1bXQ3TFBqZVltcE0wekl3bmN6SkV4RGc9PQo=",
-      "url": "https://github.com/usepalette/palette-desktop-releases/releases/download/v0.23.0/Palette.Desktop_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTNEeWJTclJZUXVSQUp3VTRGN2VuWDVWZTk3Sml6U05SOWxNa3pDZ1htdWJNdllOMUR6VzFGV2x3d1VVSFpvT1d3MFVKRmJqdUpEUk8wOEdyNTB0UHdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxMTk1NTE1CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKa1VSRDl6bnBvaE1aZVFia3YxSzZSMUYzWlZDM0g4Ny92bmNJRm5lbWhxcFpHbTlHRXFHbnZNUk1hYlFlMTFFM2d5NllIckZZNkVXNVN1Z0RmSUdqRHc9PQo=",
+      "url": "https://dl.palette.team/v0.24.0/Palette.Desktop_universal.app.tar.gz"
     },
     "darwin-x86_64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTA2U3h2ekhMUXNwNTNpNG1Yd0NMYnpodkRIQ0UvN2I2WC95MnpJbUlkV3o1NWdCSHUvYXBjdUZ4bGNFMk1EUWlWYjJmOHJkbHBGUXVQeVJhWCs5SkFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxMDA4NjUwCWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKazc1MFJUSGtDbEp5ZlhLZUxzQ0lBL1lUU1pZcDRHcktzcHAzMWVkQ0V5VldXVjRYTnRrZkhiTzlUWFNZQlM1bXQ3TFBqZVltcE0wekl3bmN6SkV4RGc9PQo=",
-      "url": "https://github.com/usepalette/palette-desktop-releases/releases/download/v0.23.0/Palette.Desktop_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTNEeWJTclJZUXVSQUp3VTRGN2VuWDVWZTk3Sml6U05SOWxNa3pDZ1htdWJNdllOMUR6VzFGV2x3d1VVSFpvT1d3MFVKRmJqdUpEUk8wOEdyNTB0UHdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxMTk1NTE1CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKa1VSRDl6bnBvaE1aZVFia3YxSzZSMUYzWlZDM0g4Ny92bmNJRm5lbWhxcFpHbTlHRXFHbnZNUk1hYlFlMTFFM2d5NllIckZZNkVXNVN1Z0RmSUdqRHc9PQo=",
+      "url": "https://dl.palette.team/v0.24.0/Palette.Desktop_universal.app.tar.gz"
     }
   }
 }
