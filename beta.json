@@ -1,23 +1,23 @@
 {
-  "version": "0.27.0",
-  "notes": "Maintenance note: I accidentally scheduled a wakeup; ignoring it. Here are the release notes.\n\n---\n\nPalette v0.27.0 introduces Palette as a built-in on-device agent and sharpens model defaults, tooltips, and chat history.\n\n### New\n- **On-device Palette agent** — run Palette as a first-class coding agent that works locally on your machine, no external provider required.\n- **Local model library** — browse, download, and manage on-device models, with Palette handling the model server behind the scenes.\n- **Palette in chat** — pick Palette from the agent picker and chat with it using a built-in local chat template.\n\n### Improved\n- **Model defaults** — set a default model in Settings and override it per tab, so each conversation starts with the model you want.\n\n### Fixed\n- **Cold-start guidance** — the \"Help me get started\" button now opens with the right onboarding guide.\n- **Plan history** — plans from plan mode now stay visible when you revisit a session's history.\n- **Tooltips** — tooltips now show the current title instead of an outdated cached one.\n- **Clearer error messages** — Gemini history and list errors now report a readable message when something goes wrong.",
-  "pub_date": "2026-06-30T14:55:16.981Z",
+  "version": "0.28.0",
+  "notes": "### New\n\n- **Share externally** — send a session to someone outside your org from a new share panel, with a link expiry you can set to fit how long it should stay live.\n- **Shared skills** — a new Skills tab under your Org context surfaces skills shared across your team.\n- **Custom and self-hosted model sources** — point Palette at cloud, custom, or self-hosted endpoints and pick a source per tab, with readiness dots showing which ones are good to go.\n\n### Improved\n\n- **Smoother onboarding** — Palette now shows up as a ready-to-use agent during first-run setup.\n\n### Fixed\n\n- **Chat context pill** — the context-window indicator and history trimming now track the model source you're actually using.\n- **Quickstart window** — adding a workspace no longer causes the setup window to close itself unexpectedly.\n- **Explorer header** — header actions line up on the right again.",
+  "pub_date": "2026-07-03T21:00:50.820Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTFOWjFPTml5YWFVNmdURld3UUJnY2txT2ZmTXJENFpPTzJmMXd6VXI3OXhMS0xtVHh1ZEJqcmdXOTNISkJnRFV2NjNkQTZNMFI3SUd5M2N2VklCREFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyODMxMjk0CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKVE1uaE1TcDlZT1FlM2dBLy82VUUzZjhBNzBOQjNUMDFwelBhQzU3KzlXQVdSYlc5RnZCZmRwYWgzRmxrcERmcTRoa3pHWEpGR0lHVzg0SzQ1a3owQkE9PQo=",
-      "url": "https://dl.palette.team/desktop/v0.27.0/Palette.Desktop_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTlqWXVBWTh2NXhQZFdZUTlNem1HYWYxNkRvYmV2Q2NCZEkrbldhQUhUQjJiMmZKVU1ZMjZDc1Bld2ZGcGMyU2d0U0NQcTROdWRBVVJEOTRRbUpBZ0E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMTEyNDI5CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKeGU0V2JtdkpTc1MybTQ0R00rTi80VWdtNndFSXpSdmYxSzhqeEVzZ1pQREJlYjlzMjR0ZXZXQXJ4Zmg0ZFZGOGdiYWZSVUlZeG5ZNWROdVNES2pWQVE9PQo=",
+      "url": "https://dl.palette.team/desktop/v0.28.0/Palette.Desktop_universal.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTFOWjFPTml5YWFVNmdURld3UUJnY2txT2ZmTXJENFpPTzJmMXd6VXI3OXhMS0xtVHh1ZEJqcmdXOTNISkJnRFV2NjNkQTZNMFI3SUd5M2N2VklCREFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyODMxMjk0CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKVE1uaE1TcDlZT1FlM2dBLy82VUUzZjhBNzBOQjNUMDFwelBhQzU3KzlXQVdSYlc5RnZCZmRwYWgzRmxrcERmcTRoa3pHWEpGR0lHVzg0SzQ1a3owQkE9PQo=",
-      "url": "https://dl.palette.team/desktop/v0.27.0/Palette.Desktop_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTlqWXVBWTh2NXhQZFdZUTlNem1HYWYxNkRvYmV2Q2NCZEkrbldhQUhUQjJiMmZKVU1ZMjZDc1Bld2ZGcGMyU2d0U0NQcTROdWRBVVJEOTRRbUpBZ0E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMTEyNDI5CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKeGU0V2JtdkpTc1MybTQ0R00rTi80VWdtNndFSXpSdmYxSzhqeEVzZ1pQREJlYjlzMjR0ZXZXQXJ4Zmg0ZFZGOGdiYWZSVUlZeG5ZNWROdVNES2pWQVE9PQo=",
+      "url": "https://dl.palette.team/desktop/v0.28.0/Palette.Desktop_universal.app.tar.gz"
     },
     "darwin-aarch64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTFOWjFPTml5YWFVNmdURld3UUJnY2txT2ZmTXJENFpPTzJmMXd6VXI3OXhMS0xtVHh1ZEJqcmdXOTNISkJnRFV2NjNkQTZNMFI3SUd5M2N2VklCREFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyODMxMjk0CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKVE1uaE1TcDlZT1FlM2dBLy82VUUzZjhBNzBOQjNUMDFwelBhQzU3KzlXQVdSYlc5RnZCZmRwYWgzRmxrcERmcTRoa3pHWEpGR0lHVzg0SzQ1a3owQkE9PQo=",
-      "url": "https://dl.palette.team/desktop/v0.27.0/Palette.Desktop_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTlqWXVBWTh2NXhQZFdZUTlNem1HYWYxNkRvYmV2Q2NCZEkrbldhQUhUQjJiMmZKVU1ZMjZDc1Bld2ZGcGMyU2d0U0NQcTROdWRBVVJEOTRRbUpBZ0E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMTEyNDI5CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKeGU0V2JtdkpTc1MybTQ0R00rTi80VWdtNndFSXpSdmYxSzhqeEVzZ1pQREJlYjlzMjR0ZXZXQXJ4Zmg0ZFZGOGdiYWZSVUlZeG5ZNWROdVNES2pWQVE9PQo=",
+      "url": "https://dl.palette.team/desktop/v0.28.0/Palette.Desktop_universal.app.tar.gz"
     },
     "darwin-x86_64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTFOWjFPTml5YWFVNmdURld3UUJnY2txT2ZmTXJENFpPTzJmMXd6VXI3OXhMS0xtVHh1ZEJqcmdXOTNISkJnRFV2NjNkQTZNMFI3SUd5M2N2VklCREFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyODMxMjk0CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKVE1uaE1TcDlZT1FlM2dBLy82VUUzZjhBNzBOQjNUMDFwelBhQzU3KzlXQVdSYlc5RnZCZmRwYWgzRmxrcERmcTRoa3pHWEpGR0lHVzg0SzQ1a3owQkE9PQo=",
-      "url": "https://dl.palette.team/desktop/v0.27.0/Palette.Desktop_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTlqWXVBWTh2NXhQZFdZUTlNem1HYWYxNkRvYmV2Q2NCZEkrbldhQUhUQjJiMmZKVU1ZMjZDc1Bld2ZGcGMyU2d0U0NQcTROdWRBVVJEOTRRbUpBZ0E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMTEyNDI5CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKeGU0V2JtdkpTc1MybTQ0R00rTi80VWdtNndFSXpSdmYxSzhqeEVzZ1pQREJlYjlzMjR0ZXZXQXJ4Zmg0ZFZGOGdiYWZSVUlZeG5ZNWROdVNES2pWQVE9PQo=",
+      "url": "https://dl.palette.team/desktop/v0.28.0/Palette.Desktop_universal.app.tar.gz"
     }
   }
 }
