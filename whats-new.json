@@ -4,6 +4,7 @@
     "date": "2026-07-04",
     "notes": "### New\r\n\r\n- **Share externally** — send a session to someone outside your org from a new share panel, with a link expiry you can set to fit how long it should stay live.\r\n- **Shared skills** — a new Skills tab under your Org context surfaces skills shared across your team.\r\n- **Custom and self-hosted model sources** — point Palette at cloud, custom, or self-hosted endpoints and pick a source per tab, with readiness dots showing which ones are good to go.\r\n\r\n### Improved\r\n\r\n- **Smoother onboarding** — Palette now shows up as a ready-to-use agent during first-run setup.\r\n\r\n### Fixed\r\n\r\n- **Chat context pill** — the context-window indicator and history trimming now track the model source you're actually using.\r\n- **Quickstart window** — adding a workspace no longer causes the setup window to close itself unexpectedly.\r\n- **Explorer header** — header actions line up on the right again.",
     "channels": [
+      "stable",
       "beta"
     ]
   },
