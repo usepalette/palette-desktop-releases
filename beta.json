@@ -1,23 +1,31 @@
 {
-  "version": "0.28.0",
-  "notes": "### New\n\n- **Share externally** — send a session to someone outside your org from a new share panel, with a link expiry you can set to fit how long it should stay live.\n- **Shared skills** — a new Skills tab under your Org context surfaces skills shared across your team.\n- **Custom and self-hosted model sources** — point Palette at cloud, custom, or self-hosted endpoints and pick a source per tab, with readiness dots showing which ones are good to go.\n\n### Improved\n\n- **Smoother onboarding** — Palette now shows up as a ready-to-use agent during first-run setup.\n\n### Fixed\n\n- **Chat context pill** — the context-window indicator and history trimming now track the model source you're actually using.\n- **Quickstart window** — adding a workspace no longer causes the setup window to close itself unexpectedly.\n- **Explorer header** — header actions line up on the right again.",
-  "pub_date": "2026-07-03T21:00:50.820Z",
+  "version": "0.29.0",
+  "notes": "Palette 0.29.0 brings persistent share links, a smoother session experience, and a visual refresh across the whole app.\n\n### New\n\n- **Update-in-place share links** — a share link now keeps the same URL when you publish updates, and the share state is clearer about what's live.\n- **Fable model** — pick Fable alongside the other Claude Code models in the model picker.\n- **Skills in every lane** — installed skills now appear right away, with the source they came from shown alongside each one.\n- **Markdown frontmatter** — the viewer parses document frontmatter and shows it as a compact summary instead of raw text.\n- **Close button in the viewer** — dismiss the viewer straight from its header.\n\n### Improved\n\n- **Faster session creation** — cloud folders are prepared in parallel, so new sessions start with less waiting.\n- **Live file updates** — the workspace now watches your Home folder recursively, so changes show up without waiting for a refresh.\n- **Safer saves** — Palette snapshots Home before a Save and applies only the session's own changes, instead of overwriting your working folder.\n- **Refreshed interface** — dialogs, tooltips, toasts, file trees, page headers, and panels across chat, viewer, settings and the workspace have all moved onto Palette's shared design system for a more consistent look.\n\n### Fixed\n\n- **Sign-in reliability** — the development build no longer shares a keychain entry with the released app, which could disturb your saved credentials.\n- **Session snapshots** — snapshotting no longer errors when a session's folder is removed mid-operation, and checkpoint restore behaves consistently across snapshot types.\n- **Cloud folder hiccups** — Palette now recovers on its own from temporary cloud-folder failures when creating a session, and backs off politely instead of hammering a folder that can't be read.",
+  "pub_date": "2026-07-27T13:37:41.518Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTlqWXVBWTh2NXhQZFdZUTlNem1HYWYxNkRvYmV2Q2NCZEkrbldhQUhUQjJiMmZKVU1ZMjZDc1Bld2ZGcGMyU2d0U0NQcTROdWRBVVJEOTRRbUpBZ0E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMTEyNDI5CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKeGU0V2JtdkpTc1MybTQ0R00rTi80VWdtNndFSXpSdmYxSzhqeEVzZ1pQREJlYjlzMjR0ZXZXQXJ4Zmg0ZFZGOGdiYWZSVUlZeG5ZNWROdVNES2pWQVE9PQo=",
-      "url": "https://dl.palette.team/desktop/v0.28.0/Palette.Desktop_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTkyQ0NnNzBqcW1RNGtqa0FKR2xENEVJdmtJaU1ZMm1EaU9KVzVyWnUxd2RMQlZVdk50VDlDb3l0NmwvWEVWRlJEMkpTWkVJRVBSRjg3VGdlNWRJSWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1MTU5NDQzCWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKbHBSREFuUVBPcXBjZ3hPemM1NjgwSGtnYTI1WkxuNG12enQ2QU1ZbWo2N25odkRZblFxL2tnMnhRblBiZEQyL1BSUW5yWVovMHBuV1RER1VTT0M3Q3c9PQo=",
+      "url": "https://dl.palette.team/desktop/v0.29.0/491498585"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTlqWXVBWTh2NXhQZFdZUTlNem1HYWYxNkRvYmV2Q2NCZEkrbldhQUhUQjJiMmZKVU1ZMjZDc1Bld2ZGcGMyU2d0U0NQcTROdWRBVVJEOTRRbUpBZ0E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMTEyNDI5CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKeGU0V2JtdkpTc1MybTQ0R00rTi80VWdtNndFSXpSdmYxSzhqeEVzZ1pQREJlYjlzMjR0ZXZXQXJ4Zmg0ZFZGOGdiYWZSVUlZeG5ZNWROdVNES2pWQVE9PQo=",
-      "url": "https://dl.palette.team/desktop/v0.28.0/Palette.Desktop_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTkyQ0NnNzBqcW1RNGtqa0FKR2xENEVJdmtJaU1ZMm1EaU9KVzVyWnUxd2RMQlZVdk50VDlDb3l0NmwvWEVWRlJEMkpTWkVJRVBSRjg3VGdlNWRJSWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1MTU5NDQzCWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKbHBSREFuUVBPcXBjZ3hPemM1NjgwSGtnYTI1WkxuNG12enQ2QU1ZbWo2N25odkRZblFxL2tnMnhRblBiZEQyL1BSUW5yWVovMHBuV1RER1VTT0M3Q3c9PQo=",
+      "url": "https://dl.palette.team/desktop/v0.29.0/491498585"
+    },
+    "darwin-universal": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTkyQ0NnNzBqcW1RNGtqa0FKR2xENEVJdmtJaU1ZMm1EaU9KVzVyWnUxd2RMQlZVdk50VDlDb3l0NmwvWEVWRlJEMkpTWkVJRVBSRjg3VGdlNWRJSWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1MTU5NDQzCWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKbHBSREFuUVBPcXBjZ3hPemM1NjgwSGtnYTI1WkxuNG12enQ2QU1ZbWo2N25odkRZblFxL2tnMnhRblBiZEQyL1BSUW5yWVovMHBuV1RER1VTT0M3Q3c9PQo=",
+      "url": "https://dl.palette.team/desktop/v0.29.0/491498585"
     },
     "darwin-aarch64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTlqWXVBWTh2NXhQZFdZUTlNem1HYWYxNkRvYmV2Q2NCZEkrbldhQUhUQjJiMmZKVU1ZMjZDc1Bld2ZGcGMyU2d0U0NQcTROdWRBVVJEOTRRbUpBZ0E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMTEyNDI5CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKeGU0V2JtdkpTc1MybTQ0R00rTi80VWdtNndFSXpSdmYxSzhqeEVzZ1pQREJlYjlzMjR0ZXZXQXJ4Zmg0ZFZGOGdiYWZSVUlZeG5ZNWROdVNES2pWQVE9PQo=",
-      "url": "https://dl.palette.team/desktop/v0.28.0/Palette.Desktop_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTkyQ0NnNzBqcW1RNGtqa0FKR2xENEVJdmtJaU1ZMm1EaU9KVzVyWnUxd2RMQlZVdk50VDlDb3l0NmwvWEVWRlJEMkpTWkVJRVBSRjg3VGdlNWRJSWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1MTU5NDQzCWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKbHBSREFuUVBPcXBjZ3hPemM1NjgwSGtnYTI1WkxuNG12enQ2QU1ZbWo2N25odkRZblFxL2tnMnhRblBiZEQyL1BSUW5yWVovMHBuV1RER1VTT0M3Q3c9PQo=",
+      "url": "https://dl.palette.team/desktop/v0.29.0/491498585"
     },
     "darwin-x86_64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTlqWXVBWTh2NXhQZFdZUTlNem1HYWYxNkRvYmV2Q2NCZEkrbldhQUhUQjJiMmZKVU1ZMjZDc1Bld2ZGcGMyU2d0U0NQcTROdWRBVVJEOTRRbUpBZ0E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMTEyNDI5CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKeGU0V2JtdkpTc1MybTQ0R00rTi80VWdtNndFSXpSdmYxSzhqeEVzZ1pQREJlYjlzMjR0ZXZXQXJ4Zmg0ZFZGOGdiYWZSVUlZeG5ZNWROdVNES2pWQVE9PQo=",
-      "url": "https://dl.palette.team/desktop/v0.28.0/Palette.Desktop_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTkyQ0NnNzBqcW1RNGtqa0FKR2xENEVJdmtJaU1ZMm1EaU9KVzVyWnUxd2RMQlZVdk50VDlDb3l0NmwvWEVWRlJEMkpTWkVJRVBSRjg3VGdlNWRJSWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1MTU5NDQzCWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKbHBSREFuUVBPcXBjZ3hPemM1NjgwSGtnYTI1WkxuNG12enQ2QU1ZbWo2N25odkRZblFxL2tnMnhRblBiZEQyL1BSUW5yWVovMHBuV1RER1VTT0M3Q3c9PQo=",
+      "url": "https://dl.palette.team/desktop/v0.29.0/491498585"
+    },
+    "darwin-universal-app": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTkyQ0NnNzBqcW1RNGtqa0FKR2xENEVJdmtJaU1ZMm1EaU9KVzVyWnUxd2RMQlZVdk50VDlDb3l0NmwvWEVWRlJEMkpTWkVJRVBSRjg3VGdlNWRJSWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1MTU5NDQzCWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKbHBSREFuUVBPcXBjZ3hPemM1NjgwSGtnYTI1WkxuNG12enQ2QU1ZbWo2N25odkRZblFxL2tnMnhRblBiZEQyL1BSUW5yWVovMHBuV1RER1VTT0M3Q3c9PQo=",
+      "url": "https://dl.palette.team/desktop/v0.29.0/491498585"
     }
   }
 }
