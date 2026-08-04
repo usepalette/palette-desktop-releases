@@ -5,27 +5,27 @@
   "platforms": {
     "darwin-aarch64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTkyQ0NnNzBqcW1RNGtqa0FKR2xENEVJdmtJaU1ZMm1EaU9KVzVyWnUxd2RMQlZVdk50VDlDb3l0NmwvWEVWRlJEMkpTWkVJRVBSRjg3VGdlNWRJSWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1MTU5NDQzCWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKbHBSREFuUVBPcXBjZ3hPemM1NjgwSGtnYTI1WkxuNG12enQ2QU1ZbWo2N25odkRZblFxL2tnMnhRblBiZEQyL1BSUW5yWVovMHBuV1RER1VTT0M3Q3c9PQo=",
-      "url": "https://dl.palette.team/desktop/v0.29.0/491498585"
+      "url": "https://dl.palette.team/desktop/v0.29.0/Palette.Desktop_0.29.0_universal.app.tar.gz"
     },
     "darwin-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTkyQ0NnNzBqcW1RNGtqa0FKR2xENEVJdmtJaU1ZMm1EaU9KVzVyWnUxd2RMQlZVdk50VDlDb3l0NmwvWEVWRlJEMkpTWkVJRVBSRjg3VGdlNWRJSWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1MTU5NDQzCWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKbHBSREFuUVBPcXBjZ3hPemM1NjgwSGtnYTI1WkxuNG12enQ2QU1ZbWo2N25odkRZblFxL2tnMnhRblBiZEQyL1BSUW5yWVovMHBuV1RER1VTT0M3Q3c9PQo=",
-      "url": "https://dl.palette.team/desktop/v0.29.0/491498585"
+      "url": "https://dl.palette.team/desktop/v0.29.0/Palette.Desktop_0.29.0_universal.app.tar.gz"
     },
     "darwin-universal": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTkyQ0NnNzBqcW1RNGtqa0FKR2xENEVJdmtJaU1ZMm1EaU9KVzVyWnUxd2RMQlZVdk50VDlDb3l0NmwvWEVWRlJEMkpTWkVJRVBSRjg3VGdlNWRJSWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1MTU5NDQzCWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKbHBSREFuUVBPcXBjZ3hPemM1NjgwSGtnYTI1WkxuNG12enQ2QU1ZbWo2N25odkRZblFxL2tnMnhRblBiZEQyL1BSUW5yWVovMHBuV1RER1VTT0M3Q3c9PQo=",
-      "url": "https://dl.palette.team/desktop/v0.29.0/491498585"
+      "url": "https://dl.palette.team/desktop/v0.29.0/Palette.Desktop_0.29.0_universal.app.tar.gz"
     },
     "darwin-aarch64-app": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTkyQ0NnNzBqcW1RNGtqa0FKR2xENEVJdmtJaU1ZMm1EaU9KVzVyWnUxd2RMQlZVdk50VDlDb3l0NmwvWEVWRlJEMkpTWkVJRVBSRjg3VGdlNWRJSWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1MTU5NDQzCWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKbHBSREFuUVBPcXBjZ3hPemM1NjgwSGtnYTI1WkxuNG12enQ2QU1ZbWo2N25odkRZblFxL2tnMnhRblBiZEQyL1BSUW5yWVovMHBuV1RER1VTT0M3Q3c9PQo=",
-      "url": "https://dl.palette.team/desktop/v0.29.0/491498585"
+      "url": "https://dl.palette.team/desktop/v0.29.0/Palette.Desktop_0.29.0_universal.app.tar.gz"
     },
     "darwin-x86_64-app": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTkyQ0NnNzBqcW1RNGtqa0FKR2xENEVJdmtJaU1ZMm1EaU9KVzVyWnUxd2RMQlZVdk50VDlDb3l0NmwvWEVWRlJEMkpTWkVJRVBSRjg3VGdlNWRJSWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1MTU5NDQzCWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKbHBSREFuUVBPcXBjZ3hPemM1NjgwSGtnYTI1WkxuNG12enQ2QU1ZbWo2N25odkRZblFxL2tnMnhRblBiZEQyL1BSUW5yWVovMHBuV1RER1VTT0M3Q3c9PQo=",
-      "url": "https://dl.palette.team/desktop/v0.29.0/491498585"
+      "url": "https://dl.palette.team/desktop/v0.29.0/Palette.Desktop_0.29.0_universal.app.tar.gz"
     },
     "darwin-universal-app": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNTkyQ0NnNzBqcW1RNGtqa0FKR2xENEVJdmtJaU1ZMm1EaU9KVzVyWnUxd2RMQlZVdk50VDlDb3l0NmwvWEVWRlJEMkpTWkVJRVBSRjg3VGdlNWRJSWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1MTU5NDQzCWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKbHBSREFuUVBPcXBjZ3hPemM1NjgwSGtnYTI1WkxuNG12enQ2QU1ZbWo2N25odkRZblFxL2tnMnhRblBiZEQyL1BSUW5yWVovMHBuV1RER1VTT0M3Q3c9PQo=",
-      "url": "https://dl.palette.team/desktop/v0.29.0/491498585"
+      "url": "https://dl.palette.team/desktop/v0.29.0/Palette.Desktop_0.29.0_universal.app.tar.gz"
     }
   }
 }
