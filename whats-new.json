@@ -1,5 +1,13 @@
 [
   {
+    "version": "0.34.0",
+    "date": "2026-08-14",
+    "notes": "Palette v0.34.0 brings reviewable folder updates, built-in Palette documentation for your agents, and a handful of reliability fixes.\r\n\r\n### New\r\n\r\n- **Review folder updates before they land** — when a session picks up changes to your folder, you get to look them over and decide before they're applied.\r\n- **Palette documentation built in** — agents can now look up Palette's own documentation while they work, without any setup.\r\n- **Shared HTML files in Organisational context** — HTML documents shared with your organisation now show up alongside the rest of your context.\r\n- **Automatic runtime updates** — Palette checks its managed tools for updates when you launch the app and when you switch back to it.\r\n\r\n### Improved\r\n\r\n- **New sessions start faster** — sessions are ready to use sooner, with setup finishing in the background.\r\n- **Smarter detection of tools already on your Mac** — Palette now only uses a coding tool it finds on your machine if it's a recent enough version to work properly.\r\n\r\n### Fixed\r\n\r\n- **Codex model list stays accurate** — the list of available Codex models is now checked against the version Palette is actually running, so you won't see models that aren't there.\r\n- **Tool permission prompts match the right request** — permission requests are now correctly paired with the action asking for them.\r\n- **Working Slack community link** — the invite link in Help now points at a fresh invite that actually works.",
+    "channels": [
+      "beta"
+    ]
+  },
+  {
     "version": "0.33.0",
     "date": "2026-08-14",
     "notes": "### New\r\n\r\n- **HTML files in Organisational context** — shared HTML documents now show up alongside your other organisational context files.\r\n- **Keep working when the shared folder is offline** — new sessions now start from your last saved baseline instead of failing, with a clear notice while saving is unavailable.\r\n\r\n### Improved\r\n\r\n- **Automatic agent updates** — Palette now checks its managed agent tools for updates when you open the app and when you switch back to it.\r\n- **Minimum versions for your own installs** — if you already have an agent CLI installed, Palette only uses it when it's new enough to work properly, instead of silently running an incompatible version.\r\n\r\n### Fixed\r\n\r\n- **Permission prompts** — reading files no longer asks for approval every time, and plan mode correctly blocks edits again.\r\n- **Codex model list** — the models you can pick now match the Codex version Palette is actually running.\r\n- **Slack community link** — the invite in Help works again.",
