@@ -1,31 +1,31 @@
 {
-  "version": "0.33.0",
-  "notes": "### New\n\n- **HTML files in Organisational context** — shared HTML documents now show up alongside your other organisational context files.\n- **Keep working when the shared folder is offline** — new sessions now start from your last saved baseline instead of failing, with a clear notice while saving is unavailable.\n\n### Improved\n\n- **Automatic agent updates** — Palette now checks its managed agent tools for updates when you open the app and when you switch back to it.\n- **Minimum versions for your own installs** — if you already have an agent CLI installed, Palette only uses it when it's new enough to work properly, instead of silently running an incompatible version.\n\n### Fixed\n\n- **Permission prompts** — reading files no longer asks for approval every time, and plan mode correctly blocks edits again.\n- **Codex model list** — the models you can pick now match the Codex version Palette is actually running.\n- **Slack community link** — the invite in Help works again.",
-  "pub_date": "2026-08-13T15:28:33.186Z",
+  "version": "0.34.0",
+  "notes": "Palette v0.34.0 brings reviewable folder updates, built-in Palette documentation for your agents, and a handful of reliability fixes.\n\n### New\n\n- **Review folder updates before they land** — when a session picks up changes to your folder, you get to look them over and decide before they're applied.\n- **Palette documentation built in** — agents can now look up Palette's own documentation while they work, without any setup.\n- **Shared HTML files in Organisational context** — HTML documents shared with your organisation now show up alongside the rest of your context.\n- **Automatic runtime updates** — Palette checks its managed tools for updates when you launch the app and when you switch back to it.\n\n### Improved\n\n- **New sessions start faster** — sessions are ready to use sooner, with setup finishing in the background.\n- **Smarter detection of tools already on your Mac** — Palette now only uses a coding tool it finds on your machine if it's a recent enough version to work properly.\n\n### Fixed\n\n- **Codex model list stays accurate** — the list of available Codex models is now checked against the version Palette is actually running, so you won't see models that aren't there.\n- **Tool permission prompts match the right request** — permission requests are now correctly paired with the action asking for them.\n- **Working Slack community link** — the invite link in Help now points at a fresh invite that actually works.",
+  "pub_date": "2026-08-14T12:07:04.692Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNThtSE0vRlhFS05IbUxmQ3hUS08ycVFtT3NySFJOUXN5eFc4Qk9iaEhPeTE5OEx1VHNSeWlEeUhEVGhJdnppQjJBWEQxSkFuTHdHQVhqb3dxczZNUUFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjM0ODk1CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKOTEyZzhsMG53ZnQzLzl4SndkeGVVSWcxcE44M3ZkeXpOaEV3VWxqeTZWNHFOZTZwemRLeVpKbEF1NEJqcGlpMWpmS0ZNTkFOMFJJUFh3VjB4VElSQnc9PQo=",
-      "url": "https://dl.palette.team/desktop/v0.33.0/Palette.Desktop_0.33.0_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNXp4SjlMcFBKYkVURWFmZU9jM0I4aDJFZzZWQkVna3NiOVVXa3o5QVZsL2taUDdEZ0RUcVp4Mk1ld2s1NTluWFRWeEI5dmVPSEw3Q3MwanZRUEtwT0F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NzA5MjA0CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKdmlGZ29Nd0FuMVJCR29jQS9VOGFpTVdjTkQvSnVtdGRvSHZ2bFZqT0xGT3FISC9VRngrWWc1YmhheldRVWRRT0ZWRHFIOWd2ZERGb2ZSU0t5bEttQXc9PQo=",
+      "url": "https://dl.palette.team/desktop/v0.34.0/Palette.Desktop_0.34.0_universal.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNThtSE0vRlhFS05IbUxmQ3hUS08ycVFtT3NySFJOUXN5eFc4Qk9iaEhPeTE5OEx1VHNSeWlEeUhEVGhJdnppQjJBWEQxSkFuTHdHQVhqb3dxczZNUUFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjM0ODk1CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKOTEyZzhsMG53ZnQzLzl4SndkeGVVSWcxcE44M3ZkeXpOaEV3VWxqeTZWNHFOZTZwemRLeVpKbEF1NEJqcGlpMWpmS0ZNTkFOMFJJUFh3VjB4VElSQnc9PQo=",
-      "url": "https://dl.palette.team/desktop/v0.33.0/Palette.Desktop_0.33.0_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNXp4SjlMcFBKYkVURWFmZU9jM0I4aDJFZzZWQkVna3NiOVVXa3o5QVZsL2taUDdEZ0RUcVp4Mk1ld2s1NTluWFRWeEI5dmVPSEw3Q3MwanZRUEtwT0F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NzA5MjA0CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKdmlGZ29Nd0FuMVJCR29jQS9VOGFpTVdjTkQvSnVtdGRvSHZ2bFZqT0xGT3FISC9VRngrWWc1YmhheldRVWRRT0ZWRHFIOWd2ZERGb2ZSU0t5bEttQXc9PQo=",
+      "url": "https://dl.palette.team/desktop/v0.34.0/Palette.Desktop_0.34.0_universal.app.tar.gz"
     },
     "darwin-universal": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNThtSE0vRlhFS05IbUxmQ3hUS08ycVFtT3NySFJOUXN5eFc4Qk9iaEhPeTE5OEx1VHNSeWlEeUhEVGhJdnppQjJBWEQxSkFuTHdHQVhqb3dxczZNUUFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjM0ODk1CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKOTEyZzhsMG53ZnQzLzl4SndkeGVVSWcxcE44M3ZkeXpOaEV3VWxqeTZWNHFOZTZwemRLeVpKbEF1NEJqcGlpMWpmS0ZNTkFOMFJJUFh3VjB4VElSQnc9PQo=",
-      "url": "https://dl.palette.team/desktop/v0.33.0/Palette.Desktop_0.33.0_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNXp4SjlMcFBKYkVURWFmZU9jM0I4aDJFZzZWQkVna3NiOVVXa3o5QVZsL2taUDdEZ0RUcVp4Mk1ld2s1NTluWFRWeEI5dmVPSEw3Q3MwanZRUEtwT0F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NzA5MjA0CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKdmlGZ29Nd0FuMVJCR29jQS9VOGFpTVdjTkQvSnVtdGRvSHZ2bFZqT0xGT3FISC9VRngrWWc1YmhheldRVWRRT0ZWRHFIOWd2ZERGb2ZSU0t5bEttQXc9PQo=",
+      "url": "https://dl.palette.team/desktop/v0.34.0/Palette.Desktop_0.34.0_universal.app.tar.gz"
     },
     "darwin-aarch64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNThtSE0vRlhFS05IbUxmQ3hUS08ycVFtT3NySFJOUXN5eFc4Qk9iaEhPeTE5OEx1VHNSeWlEeUhEVGhJdnppQjJBWEQxSkFuTHdHQVhqb3dxczZNUUFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjM0ODk1CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKOTEyZzhsMG53ZnQzLzl4SndkeGVVSWcxcE44M3ZkeXpOaEV3VWxqeTZWNHFOZTZwemRLeVpKbEF1NEJqcGlpMWpmS0ZNTkFOMFJJUFh3VjB4VElSQnc9PQo=",
-      "url": "https://dl.palette.team/desktop/v0.33.0/Palette.Desktop_0.33.0_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNXp4SjlMcFBKYkVURWFmZU9jM0I4aDJFZzZWQkVna3NiOVVXa3o5QVZsL2taUDdEZ0RUcVp4Mk1ld2s1NTluWFRWeEI5dmVPSEw3Q3MwanZRUEtwT0F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NzA5MjA0CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKdmlGZ29Nd0FuMVJCR29jQS9VOGFpTVdjTkQvSnVtdGRvSHZ2bFZqT0xGT3FISC9VRngrWWc1YmhheldRVWRRT0ZWRHFIOWd2ZERGb2ZSU0t5bEttQXc9PQo=",
+      "url": "https://dl.palette.team/desktop/v0.34.0/Palette.Desktop_0.34.0_universal.app.tar.gz"
     },
     "darwin-x86_64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNThtSE0vRlhFS05IbUxmQ3hUS08ycVFtT3NySFJOUXN5eFc4Qk9iaEhPeTE5OEx1VHNSeWlEeUhEVGhJdnppQjJBWEQxSkFuTHdHQVhqb3dxczZNUUFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjM0ODk1CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKOTEyZzhsMG53ZnQzLzl4SndkeGVVSWcxcE44M3ZkeXpOaEV3VWxqeTZWNHFOZTZwemRLeVpKbEF1NEJqcGlpMWpmS0ZNTkFOMFJJUFh3VjB4VElSQnc9PQo=",
-      "url": "https://dl.palette.team/desktop/v0.33.0/Palette.Desktop_0.33.0_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNXp4SjlMcFBKYkVURWFmZU9jM0I4aDJFZzZWQkVna3NiOVVXa3o5QVZsL2taUDdEZ0RUcVp4Mk1ld2s1NTluWFRWeEI5dmVPSEw3Q3MwanZRUEtwT0F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NzA5MjA0CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKdmlGZ29Nd0FuMVJCR29jQS9VOGFpTVdjTkQvSnVtdGRvSHZ2bFZqT0xGT3FISC9VRngrWWc1YmhheldRVWRRT0ZWRHFIOWd2ZERGb2ZSU0t5bEttQXc9PQo=",
+      "url": "https://dl.palette.team/desktop/v0.34.0/Palette.Desktop_0.34.0_universal.app.tar.gz"
     },
     "darwin-universal-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNThtSE0vRlhFS05IbUxmQ3hUS08ycVFtT3NySFJOUXN5eFc4Qk9iaEhPeTE5OEx1VHNSeWlEeUhEVGhJdnppQjJBWEQxSkFuTHdHQVhqb3dxczZNUUFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjM0ODk1CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKOTEyZzhsMG53ZnQzLzl4SndkeGVVSWcxcE44M3ZkeXpOaEV3VWxqeTZWNHFOZTZwemRLeVpKbEF1NEJqcGlpMWpmS0ZNTkFOMFJJUFh3VjB4VElSQnc9PQo=",
-      "url": "https://dl.palette.team/desktop/v0.33.0/Palette.Desktop_0.33.0_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUeHoza2RaYWpMNXp4SjlMcFBKYkVURWFmZU9jM0I4aDJFZzZWQkVna3NiOVVXa3o5QVZsL2taUDdEZ0RUcVp4Mk1ld2s1NTluWFRWeEI5dmVPSEw3Q3MwanZRUEtwT0F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NzA5MjA0CWZpbGU6UGFsZXR0ZSBEZXNrdG9wLmFwcC50YXIuZ3oKdmlGZ29Nd0FuMVJCR29jQS9VOGFpTVdjTkQvSnVtdGRvSHZ2bFZqT0xGT3FISC9VRngrWWc1YmhheldRVWRRT0ZWRHFIOWd2ZERGb2ZSU0t5bEttQXc9PQo=",
+      "url": "https://dl.palette.team/desktop/v0.34.0/Palette.Desktop_0.34.0_universal.app.tar.gz"
     }
   }
 }
