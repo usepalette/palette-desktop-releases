@@ -1,0 +1,6 @@
+{
+  "beta": {
+    "minVersion": "0.43.1",
+    "message": "This version of Palette can no longer update itself. Installing this required update fixes that. It takes a few minutes, and your sessions and work are kept."
+  }
+}
